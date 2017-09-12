@@ -1,0 +1,341 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description"
+          content="A beginners tutorial on sound effects with Bfxr.">
+    <meta name="author" content="quisseh">
+    <title>Lo-Fi Fun with Bfxr &#187; quisseh</title>
+    <link rel="canonical"
+          href="http://www.quisseh.net/lo-fi-fun-with-bfxr.html"/>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="SHORTCUT ICON" href="images/favicon.ico">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-52043521-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<meta itemprop="name" content="Lo-Fi Fun with Bfxr &#187; quisseh">
+<meta itemprop="description"
+      content="A beginners tutorial on sound effects with Bfxr.">
+<div class="wrapper">
+    <header>
+        <a href="index.html"> <img src="images/quisseh-logo.png" height="130"
+                                   width="130"></a>
+        <h1>quisseh</h1>
+        <span><small>Hi there. My name is quisseh.</small></span><br/> <span><small>I
+					make software, especially video games.</small></span>
+        <p></p>
+        <span id="currently"></span>
+        <p></p>
+    </header>
+    <section>
+        <h2>Lo-Fi Fun with Bfxr</h2>
+        <h3>A beginners tutorial on sound effects with Bfxr</h3>
+        <p>Sound design doesn't have to be so scary for game developers.</p>
+        <p>
+            <a href="http://www.bfxr.net/">Bfxr</a> is a brilliant little tool
+            (created by Stephen Lavelle aka <a href="http://www.increpare.com/">increpare</a>)
+            that enables just about anyone to make sound effects for their
+            games. It's also completely free to use.
+        </p>
+        <p>It manages to be simple enough to use for a complete beginner
+            (like me), yet complex enough to satisfy the creative needs of a
+            sound designer.</p>
+        <p>
+            I really enjoyed using it while making the sound effects for <a
+                href="quisseh-and-mawia.html">quisseh&amp;mawia</a>, so I decided
+            to write this beginners tutorial and share my experience.
+        </p>
+        <p>
+            (Note that this tool produces lo-fi samples, which are probably best
+            suited for retro style games. If you're looking for higher quality
+            and a lot more freedom, you might want to give <a
+                href="https://www.apple.com/mac/garageband/">GarageBand</a> or even
+            <a href="https://www.propellerheads.se/products/reason/">Reason</a>
+            a try.)
+        </p>
+        <h3>Getting started</h3>
+        <p>This is Bfxr.</p>
+        <img class="imagePadding" src="images/1-bfxr-synth.png"
+             alt="bfxr synth application screenshot">
+        <p>
+            To access Bfxr, go to the Bfxr <a href="http://www.bfxr.net/">
+            website</a>. From there, you can either run the tool in your
+            browser, or download it as a standalone application for Mac or
+            Windows. (I prefer the standalone version, since it holds onto all
+            of your sound clips indefinitely.)
+        </p>
+        <p>
+            Now when I first started, I clung to the upper-left corner of the
+            screen and avoided all of the fancy buttons and levers down the
+            middle. Here you're given plenty of options, many of which can be
+            found useful for any type of game: <strong>Pickup/Coin</strong>, <strong>Laser/Shoot</strong>,
+            <strong>Explosion</strong>, <strong>Powerup</strong>, <strong>Hit/Hurt</strong>,
+            <strong>Jump</strong>, and <strong>Blip/Select</strong>.
+        </p>
+        <p>
+            If you're not entirely sure what kind of sound you're looking for,
+            just click the <strong>Randomize</strong> button until something
+            catches your ear.
+        </p>
+        <p>
+            As you're generating new sounds, you'll notice that you're building
+            up a queue of sound clips on the lower-left corner of the screen.
+            Click on any of them or press the <strong>Play</strong> button on
+            the right side of the screen to play the selected sound. Compare and
+            contrast to see which sounds you like best.
+        </p>
+        <h3>Getting into it</h3>
+        <p>By now you've probably come up with a few sounds you really like,
+            but they're just missing a little something.</p>
+        <p>Well there are a few tweaking methods you can use to solve that
+            problem.</p>
+        <ul>
+            <li>Mutating</li>
+            <li>Changing wave types</li>
+            <li>Nitty-gritty lever adjustments</li>
+        </ul>
+        <h3>Mutating</h3>
+        <p>
+            Let's start with mutating. Clicking the <strong>Mutation</strong>
+            button will produce a slightly altered version of the highlighted
+            sound. Sometimes this is all you need to achieve your desired sound.
+        </p>
+        <p>
+            (Note that repeatedly clicking the <strong>Mutation</strong> button
+            will actually mutate already mutated versions of the original sound.
+            To always create a mutation of the original, you will have to click
+            on the original again before creating another mutation.)
+        </p>
+        <p>One suggestion: while you're mutating sounds, pay attention to the
+            adjustments that are automatically being made to the levers down the
+            middle of the screen. This will give you audible hints as to what
+            each lever does. This is how I started making connections between
+            different levers and different sounds, which can be really helpful
+            if you want more control.</p>
+        <h3>Changing wave types</h3>
+        <p>Up next is changing wave types. Along the upper-middle section of
+            the screen, you have a choice of 9 wave types. Selecting a different
+            wave type can dramatically change your sound. Some are better suited
+            for certain types of sound effects than others.</p>
+        <p>Here are my thoughts on each of them.</p>
+        <ul>
+            <li><strong>Triangle</strong>: Seems to soften, neutralize, and tone
+                down. I've had the most luck using this for making unintrusive menu
+                sounds.
+            </li>
+            <li><strong>Sin</strong>: Louder and cleaner sounding than <strong>Triangle</strong>.
+                Useful for any type of sound effect.
+            </li>
+            <li><strong>Square</strong>: More intense than <strong>Sin</strong>.
+                More of a retro feel compared to the other options. Very well
+                suited for jump sounds.
+            </li>
+            <li><strong>Saw</strong>: Never found a practical use for this. This
+                just sounds like <strong>Square</strong> but dirtier.
+            </li>
+            <li><strong>Breaker</strong>: Almost indistinguishable from <strong>Triangle</strong>.
+                Perhaps a bit cleaner.
+            </li>
+            <li><strong>Tan</strong>: This seems to ruin every sound I throw at
+                it.
+            </li>
+            <li><strong>Whistle</strong>: Similar to <strong>Sin</strong> but
+                with an additional, slightly muted wave playing in the background.
+                Produces some interesting results. Good for laser sounds.
+            </li>
+            <li><strong>White</strong>: Harsh, piercing noise. Suitable for
+                explosions or hit sounds, but I prefer <strong>Pink</strong>.
+            </li>
+            <li><strong>Pink</strong>: Less shrill than
+                <sstrong>White</strong>,
+                    with more depth. Every explosion sound I made with <strong>White</strong>
+                    ended up sounding better in <strong>Pink</strong>.
+            </li>
+        </ul>
+        <p>
+            Making changes here actually modifies the original sound itself; it
+            does not create a new sound for you like mutating does. To save your
+            changes, click <strong>Apply Synth</strong>. To undo your changes,
+            click <strong>Revert Synth</strong>. You can also duplicate any of
+            your sounds with <strong>Duplicate Synth</strong> (which can be
+            useful when testing out a bunch of different effects).
+        </p>
+        <h3>Nitty-gritty lever adjustments</h3>
+        <p>Finally, there are the nitty-gritty lever adjustments. These can
+            be tough to understand at first, but once you have a grasp of them
+            they can be very powerful.</p>
+        <p>I'll discuss the ones I have found to be most useful.</p>
+        <ul>
+            <li><strong>Attack Time</strong>: Time from when the sound begins to
+                when it reaches its first peak. Increase to make that period
+                longer, decrease to make it shorter. Higher attack seems to lessen
+                the effect of <strong>Punch</strong>.
+            </li>
+            <li><strong>Decay Time</strong>: Time taken for the sound to fall
+                from its initial attack. Again, increasing makes this longer,
+                decreasing makes it shorter.
+            </li>
+            <li><strong>Sustain Time</strong>: Time taken to sustain the sound
+                once it is finished decaying. Increase to make longer, decrease to
+                make shorter.
+            </li>
+            <li><strong>Punch</strong>: Turning this up gives the sound an
+                immediate pop. Useful for shooting, explosion, or hit sounds.
+            </li>
+            <li><strong>Compression</strong>: Increasing this makes the entire
+                sound stand out much more. Too much can compromise quality, though.
+            </li>
+            <li><strong>Frequency</strong>: Musical note your sound will begin
+                at. Nudging this by .01 in either direction seems to increment or
+                decrement your sound by one note.
+            </li>
+            <li><strong>Frequency Slide</strong>: Direction your sound will head
+                in over time. A value of 0 will maintain a constant frequency (good
+                for menus). Less than 0 means frequency will fall (good for
+                shooting sounds). Greater than 0 means frequency will rise (good
+                for jumping sounds).
+            </li>
+            <li><strong>Frequency Cutoff</strong>: Highest or lowest frequency
+                your sound will reach as it changes over time. If you don't like
+                the note your sound ends on, you can fix that here.
+            </li>
+            <li><strong>Vibrato Depth</strong>: Use in conjunction with <strong>Vibrato
+                Speed</strong> to make your sound shiver (vibrate). Really useful
+                for fancy laser sounds. (Turn both up past .5 to see what I mean.)
+            </li>
+            <li><strong>Square Duty</strong>: Changes the ratio of highs to lows
+                on the <strong>Square</strong> wave. Use in conjunction with <strong>Duty
+                    Sweep</strong> to change direction. (I like turning both down to
+                their minimums for jumping sounds.)
+            </li>
+            <li><strong>Repeat Speed</strong>: Repeats your sound at various
+                speeds. Good for lasers, sirens, and powerups.
+            </li>
+            <li><strong>Bit Crush</strong>: Creates a really unique sound
+                through distortion. Use in conjunction with <strong>Bit Crush Sweep</strong>
+                to change direction. You can make some outrageous explosions with
+                this. Definitely worth playing around with.
+            </li>
+        </ul>
+        <p>That should be more than enough to get you started.</p>
+        <h3>Mixing</h3>
+        <p>
+            You can use mixing to combine multiple sounds into one clip. At the
+            upper-middle section of the screen, select the <strong>Mixer</strong>
+            tab.
+        </p>
+        <img class="imagePadding" src="images/1-bfxr-mixer.png"
+             alt="bfxr mixer application screenshot">
+        <p>From here you can select up to 5 sounds to combine. Choose your
+            sounds from the drop down lists, then slide your sounds along the
+            scale to the right to set the order. You can even set the volume of
+            each individual sound.</p>
+        <p>One of the nicest uses I've found for this is to concatenate
+            sounds that would work well in sequence. For example, I can take the
+            whistling sound of a bomb as it falls from the sky, and add an
+            explosion sound to the end of it (which is what I did in the
+            screenshot above).</p>
+        <h3>Saving your masterpiece</h3>
+        <p>You're probably done tweaking by now, so it's time to save your
+            sound.</p>
+        <p>
+            To export your sound as a WAV file to use in your game, click the <strong>Export
+            Wav</strong> button and save it to your local disk.
+        </p>
+        <p>
+            If you plan on modifying your sound in Bfxr again at a later time,
+            you can also click the <strong>Save to Disk</strong> button to save
+            your sound in the bfxrsound format. Later on, you can go to <strong>Load
+            from Disk</strong> to import the file back into Bfxr and continue
+            working.
+        </p>
+        <h3>One step further with Audacity</h3>
+        <p>
+            There's one last thing I can share on this topic: modifying your WAV
+            files with <a href="http://audacity.sourceforge.net/">Audacity</a>
+            (another free tool).
+        </p>
+        <p>There is a great deal of functionality within Audacity, much of
+            which can be useful even at the novice skill level. Here are just
+            some of the features it provides that can help you with your Bfxr
+            sounds.</p>
+        <ul>
+            <li>Advanced editing and mixing with copying, cutting, and pasting</li>
+            <li>Noise removal</li>
+            <li>Exporting to different file formats, such as AIFF, MP3, OGG,
+                FLAC, WMA, AAC, and more
+            </li>
+            <li>Adjustments to pitch, tempo, and sampling rate</li>
+        </ul>
+        <p>I sought out Audacity to solve one particular issue I was having
+            with Bfxr: little hidden sounds at the end of my clips. After
+            exporting to WAV, I noticed my clips would play empty sound seconds
+            after the audible sound was finished. So I used Audacity to clean
+            this up.</p>
+        <p>Here is an example.</p>
+        <img class="imagePadding" src="images/1-audacity.png"
+             alt="audacity application screenshot">
+        <p>This is a shooting sound I created in Bfxr and loaded into
+            Audacity. As you can see in the dark gray selected area to the
+            right, from 1.060 seconds to 1.996 seconds there is no audible sound
+            playing at all, yet it remains in the file. This is nearly one
+            second of wasted play time. This will make the sound file larger and
+            your sound engine do more work.</p>
+        <p>So all you need to do to clean this up is select the area you
+            would like to remove, delete it, and export the new sound. Easy to
+            do, and worth the effort.</p>
+        <h3>Wrapping up</h3>
+        <p>If you made it this far, thanks for reading! I hope this helped
+            you get started on making sound effects with Bfxr. If you have any
+            questions, leave me a comment below.</p>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'quisseh';
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>
+            Please enable JavaScript to view the <a
+                href="https://disqus.com/?ref_noscript" rel="nofollow">comments
+            powered by Disqus.</a>
+        </noscript>
+    </section>
+    <footer>
+        <p>
+            <small>&#169; 2013<span id="current-year"></span> quisseh
+            </small>
+        </p>
+    </footer>
+</div>
+<script src="javascripts/scale.fix.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>
