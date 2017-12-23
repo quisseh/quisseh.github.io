@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
 }
 
-p, ul, ol, table, pre, dl, .imagePadding {
+p, ul, ol, pre, dl, .imagePadding {
     margin: 0 0 20px;
 }
 
@@ -82,14 +82,13 @@ pre {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 80%;
 }
 
 th, td {
     text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+    border: none;
 }
 
 dt {
