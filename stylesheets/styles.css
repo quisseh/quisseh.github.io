@@ -67,8 +67,7 @@ blockquote {
 }
 
 code, pre {
-    font-family: Inconsolata, Bitstream Vera Sans Mono, Lucida Console,
-    Terminal, monospace;
+    font-family: Inconsolata, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
     color: #333;
     font-size: 12px;
 }
@@ -83,11 +82,12 @@ pre {
 
 table {
     width: 80%;
+    display: inline-block;
 }
 
 th, td {
     text-align: left;
-    padding: 0;
+    padding: 0px 10px 0px 0px;
     border: none;
 }
 
@@ -98,6 +98,10 @@ dt {
 
 th {
     color: #444;
+}
+
+td {
+    min-width: 160px;
 }
 
 img {
