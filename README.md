@@ -1,6 +1,6 @@
-[quisseh](http://www.quisseh.net)'s website
+[quisseh](https://www.quisseh.net)'s website
 ---
 
-This repository holds the source of [quisseh](http://www.quisseh.net)'s website.
+This repository holds the source of [quisseh](https://www.quisseh.net)'s website.
 
-&copy; [quisseh](http://www.quisseh.net)
+&copy; [quisseh](https://www.quisseh.net)
