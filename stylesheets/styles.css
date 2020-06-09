@@ -2,8 +2,7 @@
 
 body {
     padding: 50px;
-    font: 14px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+    font: 14px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     font-weight: 300;
 }
@@ -13,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
 }
 
-p, ul, ol, pre, dl, .imagePadding {
+p, ul, ol, pre, dl, .m0020 {
     margin: 0 0 20px;
 }
 
@@ -39,24 +38,47 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #069;
-}
+    a:hover {
+        color: #069;
+    }
 
-a small {
-    font-size: 11px;
-    color: #777;
-    margin-top: -0.6em;
-    display: block;
-}
+    a small {
+        font-size: 11px;
+        color: #777;
+        margin-top: -0.6em;
+        display: block;
+    }
 
-a:hover small {
-    color: #777;
-}
+    a:hover small {
+        color: #777;
+    }
 
 .wrapper {
     width: 860px;
     margin: 0 auto;
+}
+
+.ml2 {
+    margin-left: 2px;
+}
+
+.m0p0 {
+    margin: 0;
+    padding: 0;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mr4p0 {
+    margin-right: 4px;
+    padding: 0;
+}
+
+.fs0lh0 {
+    font-size: 0;
+    line-height: 0;
 }
 
 blockquote {
@@ -120,11 +142,9 @@ header {
     padding: 0;
     background: #eee;
     background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8),
-    color-stop(100%, #dddddd));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
     background: -webkit-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
     background: -o-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-    background: -ms-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
     background: linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
     border-radius: 5px;
     border: 1px solid #d2d2d2;
@@ -138,14 +158,14 @@ header {
     height: 40px;
 }
 
-.downloadButtons li:first-child a {
-    border-radius: 5px 0 0 5px;
-    border-right: 1px solid #d2d2d2;
-}
+    .downloadButtons li:first-child a {
+        border-radius: 5px 0 0 5px;
+        border-right: 1px solid #d2d2d2;
+    }
 
-.downloadButtons li:last-child a {
-    border-radius: 0 5px 5px 0;
-}
+    .downloadButtons li:last-child a {
+        border-radius: 0 5px 5px 0;
+    }
 
 .downloadButtons ul a {
     line-height: 1;
@@ -157,22 +177,20 @@ header {
     height: 34px;
 }
 
-.downloadButtons ul a:hover {
-    color: #999;
-    background: -moz-linear-gradient(top, #fff 0%, #ddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff),
-    color-stop(100%, #ddd));
-    background: -webkit-linear-gradient(top, #fff 0%, #ddd 100%);
-    background: -o-linear-gradient(top, #fff 0%, #ddd 100%);
-    background: -ms-linear-gradient(top, #fff 0%, #ddd 100%);
-    background: linear-gradient(top, #fff 0%, #ddd 100%);
-}
+    .downloadButtons ul a:hover {
+        color: #999;
+        background: -moz-linear-gradient(top, #fff 0%, #ddd 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #ddd));
+        background: -webkit-linear-gradient(top, #fff 0%, #ddd 100%);
+        background: -o-linear-gradient(top, #fff 0%, #ddd 100%);
+        background: linear-gradient(top, #fff 0%, #ddd 100%);
+    }
 
-.downloadButtons ul a:active {
-    -webkit-box-shadow: inset 0px 2px 2px 0px #ddd;
-    -moz-box-shadow: inset 0px 2px 2px 0px #ddd;
-    box-shadow: inset 0px 2px 2px 0px #ddd;
-}
+    .downloadButtons ul a:active {
+        -webkit-box-shadow: inset 0px 2px 2px 0px #ddd;
+        -moz-box-shadow: inset 0px 2px 2px 0px #ddd;
+        box-shadow: inset 0px 2px 2px 0px #ddd;
+    }
 
 strong {
     font-weight: bold;
@@ -183,10 +201,10 @@ header ul li + li {
     border-left: 1px solid #fff;
 }
 
-header ul li + li + li {
-    border-right: none;
-    width: 89px;
-}
+    header ul li + li + li {
+        border-right: none;
+        width: 89px;
+    }
 
 header ul a strong {
     font-size: 14px;
@@ -218,7 +236,7 @@ footer {
     bottom: 50px;
 }
 
-@media print , screen and (max-width: 960px) {
+@media print, screen and (max-width: 960px) {
     div.wrapper {
         width: auto;
         margin: 0;
@@ -252,7 +270,7 @@ footer {
     }
 }
 
-@media print , screen and (max-width: 720px) {
+@media print, screen and (max-width: 720px) {
     body {
         word-wrap: break-word;
     }
@@ -261,16 +279,16 @@ footer {
         padding: 0;
     }
 
-    header ul, header p.view {
-        position: static;
-    }
+        header ul, header p.view {
+            position: static;
+        }
 
     pre, code {
         word-wrap: normal;
     }
 }
 
-@media print , screen and (max-width: 480px) {
+@media print, screen and (max-width: 480px) {
     body {
         padding: 15px;
     }
