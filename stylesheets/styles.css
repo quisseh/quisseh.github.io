@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
 body {
     padding: 50px;
-    font: 14px/1.5 Inconsolata, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/1.5 Josefin Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     font-weight: 300;
+    background-color: #c0dcc0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -134,9 +135,11 @@ img {
 }
 
 header {
-    width: 270px;
+    width: 200px;
     float: left;
     position: fixed;
+    text-align: center;
+    padding: 0;
 }
 
 .downloadButtons ul {
@@ -215,6 +218,10 @@ header ul a strong {
     color: #222;
 }
 
+header h1 {
+    color: #2e4d6a;
+}
+
 section {
     width: 500px;
     float: right;
@@ -233,10 +240,11 @@ hr {
 }
 
 footer {
-    width: 270px;
+    width: 200px;
     float: left;
     position: fixed;
     bottom: 50px;
+    text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -249,10 +257,6 @@ footer {
         float: none;
         position: static;
         width: auto;
-    }
-
-    header {
-        padding-right: 320px;
     }
 
     section {
@@ -278,13 +282,9 @@ footer {
         word-wrap: break-word;
     }
 
-    header {
-        padding: 0;
+    header ul, header p.view {
+        position: static;
     }
-
-        header ul, header p.view {
-            position: static;
-        }
 
     pre, code {
         word-wrap: normal;
@@ -309,8 +309,8 @@ footer {
     }
 }
 
-@media print, screen and (max-height: 410px) {
+@media print, screen and (max-height: 470px) {
     footer {
-        top: 320px;
+        top: 380px;
     }
 }
